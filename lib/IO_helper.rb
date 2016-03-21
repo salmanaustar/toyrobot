@@ -11,7 +11,7 @@ class IOHelper
 		
 		begin
 			
-			file = File.open(File.expand_path(file_name, __FILE__), 'r') do |f1| 
+			file = File.open(file_name, 'r') do |f1| 
 				instructions = Array.new
 				while line = f1.gets 
 					instructions.push line

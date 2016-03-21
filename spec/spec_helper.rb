@@ -1,4 +1,5 @@
 
-require_relative '../lib/table.rb'
-require_relative '../lib/robot.rb'
-require_relative '../lib/IO_helper.rb'
+require_relative '../lib/table'
+require_relative '../lib/robot'
+require_relative '../lib/IO_helper'
+require_relative '../lib/controller'
