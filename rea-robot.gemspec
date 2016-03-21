@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rea::Robot::VERSION
   spec.authors       = ["Salman Sohail"]
   spec.email         = ["salman@austarlabs.com.au"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Toy Robot}
+  spec.description   = %q{Toy Robot for REA-GROUP}
   spec.homepage      = ""
   spec.license       = "MIT"
 
