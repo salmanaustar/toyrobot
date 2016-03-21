@@ -14,15 +14,20 @@ Not in scope in this version
 
 ## Usage
 
-At this stage, the program can be initialize by invoking the main.rb file with a command line argument of the name of file. such as 
+At this stage, the program can be initialize by invoking the main.rb file with a command line argument of filename. such as 
 
 ruby main.rb test.txt
 
 following are the sample data files which are located on the root of this project:
+
 test.txt
+
 test2.txt
+
 test3.txt
+
 test4.txt
+
 test5.txt
 
 ## Testing
@@ -31,7 +36,7 @@ Have used TDD approach to develop this program and Rspec is being used to test t
 
 ## TODOs
 
-In future, a gem can be released on GitHub which can be used with your ruby projects
+In future, a gem will be released on GitHub which can be used with your ruby projects
 
 ## Contributing
 
