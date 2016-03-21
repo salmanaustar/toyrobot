@@ -35,6 +35,18 @@ describe 'Controller' do
 			end
 		end
 		
+		
+		context "Upon providing the file which contains invalid PLACE command" do
+			
+			before do
+			  @controller.read_file('./test5.txt')
+			end
+			
+			it 'will halt the execution' do
+				expect{@controller.start}.to output("The file contains invalid instructions\n").to_stdout
+			end
+		end
+		
 	end
 	
 	describe '#process_instruction' do

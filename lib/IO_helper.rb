@@ -14,7 +14,7 @@ class IOHelper
 			file = File.open(file_name, 'r') do |f1| 
 				instructions = Array.new
 				while line = f1.gets 
-					instructions.push line
+					instructions.push line.strip
 				end
 			end
 			

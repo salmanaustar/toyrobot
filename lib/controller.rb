@@ -46,6 +46,7 @@ class Controller
 				puts "Invalid arguments for PLACE command : #{instruction}, Ignored"			
 				next
 			else
+				next unless @table.validate?(temp[0].dup.to_i, temp[1].dup.to_i)
 				@is_placed = true
 				@robot.place(temp[2])
 				@table.place(temp[0].dup.to_i, temp[1].dup.to_i)
@@ -63,6 +64,9 @@ class Controller
 		  process_instruction(instruction)
 		  
 		end
+		
+		puts "The file contains invalid instructions" unless @is_placed
+		true
 		
 	end
 	

@@ -7,6 +7,7 @@ begin
 	controller.read_file(ARGV[0])
 rescue Exception => e
 	puts "Error reading file. Please verify your filename/path and try again."
+	exit!
 end
 
 controller.start
